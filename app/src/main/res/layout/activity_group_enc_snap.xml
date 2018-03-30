@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/encounter_bg"
+    tools:context="com.example.likit.lynx.GroupEncSnapActivity">
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/registenBtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/encounterlarge" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:text="New Encounter"
+        android:textAlignment="center"
+        android:textColor="@color/edittext"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+    <View
+        android:id="@+id/view"
+        style="@style/Divider"
+        android:layout_height="1dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/darker_line"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <View
+                android:id="@+id/view1"
+                style="@style/Divider"
+                android:layout_height="1dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/darker_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view">
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Sex Rating:"
+            android:textAlignment="textStart"
+            android:textColor="@color/light_gray"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="297dp" />
+
+        <RatingBar
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:text="Number of people:"
+            android:textAlignment="textStart"
+            android:textColor="@color/light_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="4"
+            android:textColor="@color/light_gray"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+            <View
+                android:id="@+id/view2"
+                style="@style/Divider"
+                android:layout_height="1dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/darker_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="115dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:text="Condom used:"
+            android:textAlignment="textStart"
+            android:textColor="@color/light_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="Part of the time"
+            android:textColor="@color/light_gray"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+            <View
+                android:id="@+id/view3"
+                style="@style/Divider"
+                android:layout_height="1dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/darker_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3">
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="29dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:text="Did anyone cum inside of you?"
+            android:textAlignment="textStart"
+            android:textColor="@color/light_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="No"
+            android:textColor="@color/light_gray"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+            <View
+                android:id="@+id/view5"
+                style="@style/Divider"
+                android:layout_height="1dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/darker_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="300dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view5">
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="22dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="1"
+                    android:text="HIV Status:"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/light_gray"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="4"
+                    android:textColor="@color/light_gray"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view6"
+                style="@style/Divider"
+                android:layout_height="1dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/darker_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout7" />
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view6">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="21dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:text="Encouner Notes:"
+            android:textAlignment="textStart"
+            android:textColor="@color/light_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="4"
+            android:textColor="@color/light_gray"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+            <View
+                android:id="@+id/view8"
+                style="@style/Divider"
+                android:layout_height="1dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/darker_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout9" />
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view8">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="23dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="0dp"
+            android:layout_weight="1"
+            android:text="I was:"
+            android:textAlignment="textStart"
+            android:textColor="@color/light_gray"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="4"
+            android:textColor="@color/light_gray"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+            <View
+                android:id="@+id/view9"
+                style="@style/Divider"
+                android:layout_height="1dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/darker_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout8" />
+
+            <TextView
+                android:id="@+id/textViewT"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:text="Type of Sex?"
+                android:textColor="@color/light_gray"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view9" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutT1"
+                android:layout_width="0dp"
+                android:layout_height="59dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewT">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton8"
+                    android:layout_width="70dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/toggle_btn"
+                    android:gravity="center_horizontal|center"
+                    android:text="ToggleButton"
+                    android:textColor="@color/toggle_txt"
+                    android:textOff="I SUCKED"
+                    android:textOn="I SUCKED"
+                    android:textSize="14sp" />
+
+                <ToggleButton
+                    android:layout_width="70dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/toggle_btn"
+                    android:gravity="center_horizontal|center"
+                    android:text="ToggleButton"
+                    android:textColor="@color/toggle_txt"
+                    android:textOff="I GOT SUCKED"
+                    android:textOn="I GOT SUCKED"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutT2"
+                android:layout_width="0dp"
+                android:layout_height="59dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayoutT1">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton9"
+                    android:layout_width="70dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/toggle_btn"
+                    android:gravity="center_horizontal|center"
+                    android:text="ToggleButton"
+                    android:textColor="@color/toggle_txt"
+                    android:textOff="I FUCKED"
+                    android:textOn="I FUCKED"
+                    android:textSize="14sp" />
+
+                <ToggleButton
+                    android:layout_width="70dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/toggle_btn"
+                    android:gravity="center_horizontal|center"
+                    android:text="ToggleButton"
+                    android:textColor="@color/toggle_txt"
+                    android:textOff="I GOT FUCKED"
+                    android:textOn="I GOT FUCKED"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutT3"
+                android:layout_width="0dp"
+                android:layout_height="59dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayoutT2">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton10"
+                    android:layout_width="70dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/toggle_btn"
+                    android:gravity="center_horizontal|center"
+                    android:text="ToggleButton"
+                    android:textColor="@color/toggle_txt"
+                    android:textOff="I RIMMED"
+                    android:textOn="I RIMMED"
+                    android:textSize="14sp" />
+
+                <ToggleButton
+                    android:layout_width="70dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/toggle_btn"
+                    android:gravity="center_horizontal|center"
+                    android:text="ToggleButton"
+                    android:textColor="@color/toggle_txt"
+                    android:textOff="I GOT RIMMED"
+                    android:textOn="I GOT RIMMED"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="200dp"
+                android:layout_height="35dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/spinner_bg"
+                android:backgroundTint="@color/shadow_white"
+                android:text="Edit"
+                android:textColor="@color/light_gray"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayoutT3" />
+
+
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/registenBtn"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/alert_box_btn"
+        android:text="NEXT"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView" />
+</android.support.constraint.ConstraintLayout>

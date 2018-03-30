@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#2196f3</color>
+    <color name="dark_boxes">#444444 </color>
+    <color name="gray_bar">#d5d5d5</color>
+    <color name="blue_boxes">#dceefd </color>
+    <color name="darker_line">#aeaeae</color>
+    <color name="lighter_line">#d5d5d5</color>
+    <color name="shadow_white">#fafafa</color>
+    <color name="green">#14ab34</color>
+    <color name="button_red">#FFDB4437</color>
+    <color name="chat_row_name">#800D0925</color>
+    <color name="chat_row_text">#FF343434</color>
+    <color name="chat_layout_red_text">#FFD02E2A</color>
+    <color name="chat_layout_red_bg">#FFD0021B</color>
+
+    <color name="text_color">#444444</color>
+    <color name="starBG">#D6D6D6</color>
+    <!-- Passcode Screen-->
+    <color name="light_gray">#e5e5e5</color>
+    <color name="gray">#cccccc</color>
+
+    <!-- Grdient Colors -->
+    <color name="top_right">#693CDD</color>
+    <color name="bottom">#2196f3</color>
+    <color name="center">#4b61e6</color>
+    <!--<color name="button_darkblue">#505be5</color>-->
+    <color name="edittext_bg">#1AFFFFFF</color>
+    <color name="edittext">#f9fafb</color>
+    <color name="btn_blue_start">#80693CDD</color>
+    <color name="btn_blue_end">#80683BDD</color>
+    <color name="btn_blue">#FF4D4AED</color>
+    <!-- New Theme Colors -->
+    <color name="white">#FFFFFF </color>
+    <color name="edittext_hint_color">#80FFFFFF</color>
+    <color name="update_score_bg">#FF683BDD</color>
+    <!-- Encounter Screen Colors -->
+    <color name="encounter_bg">#444444</color>
+    <color name="encounter_btn_bg">#2E86FF</color>
+    <color name="encounter_btn_grey">#d6d6d6</color>
+    <color name="banner_name_bg">#d5d5d5</color>
+    <color name="toggle_btn_bg">#d5d5d5</color>
+
+    <!--Profile update-->
+    <color name="profile_title_text_color">#FF2E86FF</color>
+    <color name="profile_text_color">#FF444444</color>
+    <color name="grey_border">#1F000000</color>
+    <color name="profile_edittext_bg">#1A444444</color>
+    <color name="profile_edittext_hint">#80444444</color>
+    <color name="badge_sub_text_color">#7a7a7a</color>
+    <!-- FAQ Screen Colors -->
+    <color name="faq_blue">#DE2E86EF</color>
+    <color name="border_grey">#1F000000</color>
+
+    <!--Lynx Home -->
+    <color name="lynx_home_white">#CCFFFFFF</color>
+
+    <!--Bottom Navigations-->
+    <color name="bot_nav_bg">#FFD5D5D5</color>
+
+    <!--Chart Colors-->
+    <color name="chart_blue">#FF2E86FF</color>
+    <color name="chart_green">#FF81D427</color>
+    <color name="chart_orange">#FFF16A38</color>
+    <color name="chart_purple">#FFC73BC0</color>
+    <color name="chart_grey">#979797</color>
+
+    <color name="alert_box_bg">#CCFCFCFC</color>
+    <color name="alert_box_btn">#256dff</color>
+    <color name="alert_box_border">#C74D4D4D</color>
+    <color name="alert_box_text">#FF343434</color>
+</resources>
+

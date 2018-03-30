@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/Con_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#444444"
+        tools:context="com.example.likit.lynx.NewGroupActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/registenBtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:scaleType="fitCenter"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/encounterlarge" />
+
+            <View
+                android:id="@+id/view"
+                style="@style/Divider"
+                android:layout_height="1dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:background="@color/darker_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="New Group Encounter"
+                android:textAlignment="center"
+                android:textColor="@color/light_gray"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="27dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:text="How was the sex?"
+                android:textAlignment="center"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.514"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view" />
+
+            <RatingBar
+                android:id="@+id/ratingBar2"
+                style="@style/?android:attr/ratingBarStyleIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:theme="@style/RatingBar"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <View
+                android:id="@+id/view1"
+                style="@style/Divider"
+                android:layout_height="1dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/darker_line"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ratingBar2" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:text="What did you do?"
+                android:textAlignment="center"
+                android:textColor="@color/gray"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/view1" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="0dp"
+                android:layout_height="59dp"
+                android:layout_marginTop="32dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView14">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton8"
+                    android:layout_width="70dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/toggle_btn"
+                    android:gravity="center_horizontal|center"
+                    android:text="ToggleButton"
+                    android:textColor="@color/toggle_txt"
+                    android:textOff="I SUCKED"
+                    android:textOn="I SUCKED"
+                    android:textSize="14sp" />
+
+                <ToggleButton
+                    android:layout_width="70dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/toggle_btn"
+                    android:gravity="center_horizontal|center"
+                    android:text="ToggleButton"
+                    android:textColor="@color/toggle_txt"
+                    android:textOff="I GOT SUCKED"
+                    android:textOn="I GOT SUCKED"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="0dp"
+                android:layout_height="59dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout5">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton9"
+                    android:layout_width="70dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/toggle_btn"
+                    android:gravity="center_horizontal|center"
+                    android:text="ToggleButton"
+                    android:textColor="@color/toggle_txt"
+                    android:textOff="I FUCKED"
+                    android:textOn="I FUCKED"
+                    android:textSize="14sp" />
+
+                <ToggleButton
+                    android:layout_width="70dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/toggle_btn"
+                    android:gravity="center_horizontal|center"
+                    android:text="ToggleButton"
+                    android:textColor="@color/toggle_txt"
+                    android:textOff="I GOT FUCKED"
+                    android:textOn="I GOT FUCKED"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="0dp"
+                android:layout_height="59dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton10"
+                    android:layout_width="70dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/toggle_btn"
+                    android:gravity="center_horizontal|center"
+                    android:text="ToggleButton"
+                    android:textColor="@color/toggle_txt"
+                    android:textOff="I RIMMED"
+                    android:textOn="I RIMMED"
+                    android:textSize="14sp" />
+
+                <ToggleButton
+                    android:layout_width="70dp"
+                    android:layout_height="37dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/toggle_btn"
+                    android:gravity="center_horizontal|center"
+                    android:text="ToggleButton"
+                    android:textColor="@color/toggle_txt"
+                    android:textOff="I GOT RIMMED"
+                    android:textOn="I GOT RIMMED"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/registenBtn"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/alert_box_btn"
+        android:text="NEXT"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView" />
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+

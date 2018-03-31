@@ -104,8 +104,8 @@
     <Button
         android:id="@+id/editBtn"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/loginbtn"
         android:text="CONFIRM"
         android:textColor="@android:color/white"

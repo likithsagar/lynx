@@ -43,7 +43,9 @@
         <activity
             android:name=".NewGroupEnc3Activity"
             android:exported="true" />
-        <activity android:name=".GroupEncSnapActivity"></activity>
+        <activity android:name=".GroupEncSnapActivity" />
+        <activity android:name=".BaseProScoreActivity" />
+        <activity android:name=".BaseProScore1Activity"></activity>
     </application>
 
 </manifest>

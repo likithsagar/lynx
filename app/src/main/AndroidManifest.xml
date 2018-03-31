@@ -45,7 +45,10 @@
             android:exported="true" />
         <activity android:name=".GroupEncSnapActivity" />
         <activity android:name=".BaseProScoreActivity" />
-        <activity android:name=".BaseProScore1Activity"></activity>
+        <activity android:name=".BaseProScore1Activity" />
+        <activity android:name=".BaseProScore2Activity" />
+        <activity android:name=".BaseProScore3Activity" />
+        <activity android:name=".BaseProScore4Activity"></activity>
     </application>
 
 </manifest>

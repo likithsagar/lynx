@@ -67,7 +67,7 @@
         android:buttonTint="@color/toggle_btn_bg"
         android:text="Yes"
         android:textColor="@color/light_gray"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
 
@@ -80,7 +80,7 @@
         android:buttonTint="@color/toggle_btn_bg"
         android:text="No"
         android:textColor="@color/light_gray"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 

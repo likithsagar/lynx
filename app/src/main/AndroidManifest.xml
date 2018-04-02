@@ -43,12 +43,22 @@
         <activity
             android:name=".NewGroupEnc3Activity"
             android:exported="true" />
-        <activity android:name=".GroupEncSnapActivity" android:exported="true"/>
+        <activity
+            android:name=".GroupEncSnapActivity"
+            android:exported="true" />
         <activity android:name=".BaseProScoreActivity" />
         <activity android:name=".BaseProScore1Activity" />
         <activity android:name=".BaseProScore2Activity" />
         <activity android:name=".BaseProScore3Activity" />
-        <activity android:name=".BaseProScore4Activity"></activity>
+        <activity android:name=".BaseProScore4Activity" />
+        <activity
+            android:name=".BaseProScore5Activity"
+            android:exported="true" />
+        <activity android:name=".BaseProScore6Activity" />
+        <activity android:name=".BaseProScore7Activity" />
+        <activity android:name=".RemindersActivity" />
+        <activity android:name=".TestingReminderActivity" />
+        <activity android:name=".DiaryReminderActivity" />
     </application>
 
 </manifest>

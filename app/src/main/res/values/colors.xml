@@ -33,7 +33,7 @@
     <color name="btn_blue_end">#80683BDD</color>
     <color name="btn_blue">#FF4D4AED</color>
     <!-- New Theme Colors -->
-    <color name="white">#FFFFFF </color>
+    <color name="white">#ffffff</color>
     <color name="edittext_hint_color">#80FFFFFF</color>
     <color name="update_score_bg">#FF683BDD</color>
     <!-- Encounter Screen Colors -->

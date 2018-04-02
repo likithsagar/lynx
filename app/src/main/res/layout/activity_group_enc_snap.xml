@@ -91,7 +91,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:text="Sex Rating:"
-            android:textAlignment="textStart"
+
             android:textColor="@color/light_gray"
             android:textSize="16sp"
             tools:layout_editor_absoluteX="50dp"
@@ -102,7 +102,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:isIndicator="true" />
 
     </LinearLayout>
 

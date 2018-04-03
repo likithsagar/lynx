@@ -49,24 +49,25 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="0dp"
-        android:layout_height="51dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:background="#1FFF"
-        android:ems="10"
-        android:hint="Email address"
-        android:inputType="textEmailAddress"
-        android:paddingLeft="50dp"
-        android:radius="14dp"
-        android:textColorHint="#6FFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="0dp"
+                android:layout_height="51dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#1FFF"
+                android:ems="10"
+                android:hint="Email address"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="50dp"
+                android:radius="14dp"
+                android:textColorHint="#6FFF"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
 
     <TextView
@@ -110,7 +111,7 @@
         android:onClick="forgotPwdBtnOnClick"
         android:text="CONFIRM"
         android:textColor="@android:color/white"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

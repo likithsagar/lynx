@@ -201,6 +201,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/seekBar4" />
         </android.support.constraint.ConstraintLayout>
     </ScrollView>
+
     <Button
         android:id="@+id/registerBtn1"
         android:layout_width="0dp"
@@ -209,7 +210,7 @@
         android:background="@drawable/loginbtn"
         android:text="NEXT"
         android:textColor="@android:color/white"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

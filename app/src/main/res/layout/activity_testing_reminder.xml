@@ -48,22 +48,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageView8" />
 
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="0dp"
-        android:layout_height="49dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:background="#1FFF"
-        android:ems="10"
-        android:hint="Set day of the week"
-        android:inputType="date"
-        android:paddingLeft="50dp"
-        android:textColorHint="#6FFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="0dp"
+                android:layout_height="49dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:background="#1FFF"
+                android:ems="10"
+                android:hint="Set day of the week"
+                android:inputType="date"
+                android:paddingLeft="50dp"
+                android:textColorHint="#6FFF"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -77,22 +78,23 @@
         app:layout_constraintTop_toTopOf="@+id/editText3"
         app:srcCompat="@drawable/calendericon" />
 
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="0dp"
-        android:layout_height="49dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:background="#1FFF"
-        android:ems="10"
-        android:hint="Set time of the day"
-        android:inputType="time"
-        android:paddingLeft="50dp"
-        android:textColorHint="#6FFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText3" />
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="0dp"
+                android:layout_height="49dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#1FFF"
+                android:ems="10"
+                android:hint="Set time of the day"
+                android:inputType="time"
+                android:paddingLeft="50dp"
+                android:textColorHint="#6FFF"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText3" />
 
     <ImageView
         android:id="@+id/imageView32"
@@ -106,22 +108,23 @@
         app:layout_constraintTop_toTopOf="@+id/editText4"
         app:srcCompat="@drawable/clockicon" />
 
-    <EditText
-        android:id="@+id/editText5"
-        android:layout_width="0dp"
-        android:layout_height="49dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:background="#1FFF"
-        android:ems="10"
-        android:hint="Set time of the day"
-        android:inputType="time"
-        android:paddingLeft="50dp"
-        android:textColorHint="#6FFF"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4" />
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="0dp"
+                android:layout_height="49dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="#1FFF"
+                android:ems="10"
+                android:hint="Set time of the day"
+                android:inputType="time"
+                android:paddingLeft="50dp"
+                android:textColorHint="#6FFF"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
     <ImageView
         android:id="@+id/imageView33"
@@ -160,7 +163,7 @@
         android:background="@drawable/loginbtn"
         android:text="NEXT"
         android:textColor="@android:color/white"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

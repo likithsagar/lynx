@@ -47,36 +47,36 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="0dp"
-        android:layout_height="24dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:text="New Group Encounter"
-        android:textAlignment="center"
-        android:textColor="@color/light_gray"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView17" />
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:text="New Group Encounter"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView17" />
 
-    <TextView
-        android:id="@+id/textView16"
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:paddingLeft="5dp"
-        android:singleLine="true"
-        android:text="Did you use condom?"
-        android:textAlignment="textStart"
-        android:textColor="@color/light_gray"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view" />
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:text="Did you use condom?"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view" />
 
             <RadioButton
                 android:id="@+id/radioButton"
@@ -86,7 +86,7 @@
                 android:layout_marginTop="8dp"
                 android:buttonTint="@color/toggle_btn_bg"
                 android:text="Part of the time"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/white"
                 android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/radioButton2" />
@@ -99,7 +99,7 @@
                 android:layout_marginTop="16dp"
                 android:buttonTint="@color/toggle_btn_bg"
                 android:text="All of the time"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/white"
                 android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView16" />
@@ -112,7 +112,7 @@
                 android:layout_marginTop="8dp"
                 android:buttonTint="@color/toggle_btn_bg"
                 android:text="None of the time"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/white"
                 android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/radioButton" />
@@ -129,20 +129,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton3" />
 
-    <TextView
-        android:id="@+id/textView17"
-        android:layout_width="wrap_content"
-        android:layout_height="24dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:paddingLeft="5dp"
-        android:singleLine="true"
-        android:text="Did anyone cum inside of you?"
-        android:textAlignment="textStart"
-        android:textColor="@color/light_gray"
-        android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view1" />
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:paddingLeft="5dp"
+                android:singleLine="true"
+                android:text="Did anyone cum inside of you?"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view1" />
 
             <RadioButton
                 android:id="@+id/radioButton4"
@@ -152,7 +152,7 @@
                 android:layout_marginTop="16dp"
                 android:buttonTint="@color/toggle_btn_bg"
                 android:text="Yes"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/white"
                 android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/textView17" />
@@ -165,7 +165,7 @@
                 android:layout_marginTop="8dp"
                 android:buttonTint="@color/toggle_btn_bg"
                 android:text="No"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/white"
                 android:textSize="14sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
@@ -180,7 +180,7 @@
         android:background="@color/alert_box_btn"
         android:text="NEXT"
         android:textColor="@android:color/white"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

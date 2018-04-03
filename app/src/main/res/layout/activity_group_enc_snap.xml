@@ -92,7 +92,7 @@
             android:gravity="center"
             android:text="Sex Rating:"
 
-            android:textColor="@color/light_gray"
+            android:textColor="@color/white"
             android:textSize="16sp"
             tools:layout_editor_absoluteX="50dp"
             tools:layout_editor_absoluteY="297dp" />
@@ -126,7 +126,7 @@
             android:layout_weight="1"
             android:text="Number of people:"
             android:textAlignment="textStart"
-            android:textColor="@color/light_gray"
+            android:textColor="@color/white"
             android:textSize="16sp" />
 
         <TextView
@@ -135,7 +135,7 @@
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
             android:text="4"
-            android:textColor="@color/light_gray"
+            android:textColor="@color/white"
             android:textSize="16sp" />
     </LinearLayout>
 
@@ -170,7 +170,7 @@
             android:layout_weight="1"
             android:text="Condom used:"
             android:textAlignment="textStart"
-            android:textColor="@color/light_gray"
+            android:textColor="@color/white"
             android:textSize="16sp" />
 
         <TextView
@@ -179,7 +179,7 @@
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
             android:text="Part of the time"
-            android:textColor="@color/light_gray"
+            android:textColor="@color/white"
             android:textSize="16sp" />
     </LinearLayout>
 
@@ -214,7 +214,7 @@
             android:layout_weight="1"
             android:text="Did anyone cum inside of you?"
             android:textAlignment="textStart"
-            android:textColor="@color/light_gray"
+            android:textColor="@color/white"
             android:textSize="16sp" />
 
         <TextView
@@ -223,7 +223,7 @@
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
             android:text="No"
-            android:textColor="@color/light_gray"
+            android:textColor="@color/white"
             android:textSize="16sp" />
     </LinearLayout>
 
@@ -259,17 +259,33 @@
                     android:layout_weight="1"
                     android:text="HIV Status:"
                     android:textAlignment="textStart"
-                    android:textColor="@color/light_gray"
+                    android:textColor="@color/white"
                     android:textSize="16sp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="23dp"
                     android:layout_marginLeft="20dp"
                     android:layout_weight="1"
-                    android:text="4"
-                    android:textColor="@color/light_gray"
+                    android:text="HIV positive"
+                    android:textColor="@color/white"
                     android:textSize="16sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="23dp"
+                        android:layout_weight="1"
+                        android:text="HIV negative"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
             </LinearLayout>
 
             <View
@@ -303,7 +319,7 @@
             android:layout_weight="1"
             android:text="Encouner Notes:"
             android:textAlignment="textStart"
-            android:textColor="@color/light_gray"
+            android:textColor="@color/white"
             android:textSize="16sp" />
 
         <TextView
@@ -312,7 +328,7 @@
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
             android:text="4"
-            android:textColor="@color/light_gray"
+            android:textColor="@color/white"
             android:textSize="16sp" />
     </LinearLayout>
 
@@ -347,7 +363,7 @@
             android:layout_weight="1"
             android:text="I was:"
             android:textAlignment="textStart"
-            android:textColor="@color/light_gray"
+            android:textColor="@color/white"
             android:textSize="16sp" />
 
         <TextView
@@ -355,7 +371,7 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="20dp"
             android:layout_weight="1"
-            android:text="4"
+            android:text="Both drunk and high"
             android:textColor="@color/light_gray"
             android:textSize="16sp" />
     </LinearLayout>
@@ -380,7 +396,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="16dp"
                 android:text="Type of Sex?"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/white"
                 android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view9" />
@@ -511,9 +527,9 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="16dp"
                 android:background="@drawable/spinner_bg"
-                android:backgroundTint="@color/shadow_white"
+                android:backgroundTint="@color/white"
                 android:text="Edit"
-                android:textColor="@color/light_gray"
+                android:textColor="@color/white"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -531,7 +547,7 @@
         android:background="@color/alert_box_btn"
         android:text="NEXT"
         android:textColor="@android:color/white"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
